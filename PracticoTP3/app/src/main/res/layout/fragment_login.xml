@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA5C5656"
+    android:background="#F0616161"
     tools:context=".fragments.LoginFragment">
 
     <EditText
@@ -21,7 +21,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColor="#0B0B0B"
+        android:textColor="#F6F6F6"
         app:layout_constraintBottom_toTopOf="@+id/btn_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
-        android:textColor="#000000"
+        android:textColor="#FFF9F9"
         app:layout_constraintBottom_toTopOf="@+id/passWord"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="SIgn in"
+        android:text="Sign in"
         android:visibility="visible"
         app:backgroundTint="#470404"
         app:layout_constraintEnd_toEndOf="parent"

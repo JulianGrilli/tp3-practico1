@@ -8,5 +8,18 @@
         android:id="@+id/peliculaFragment"
         android:name="com.example.practicotp3.fragments.PeliculaFragment"
         android:label="fragment_pelicula"
-        tools:layout="@layout/fragment_pelicula" />
+        tools:layout="@layout/fragment_pelicula" >
+        <action
+            android:id="@+id/action_peliculaFragment_to_peliculaDetalleFragment"
+            app:destination="@id/peliculaDetalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/peliculaDetalleFragment"
+        android:name="com.example.practicotp3.fragments.PeliculaDetalleFragment"
+        android:label="fragment_pelicula_detalle"
+        tools:layout="@layout/fragment_pelicula_detalle">
+    <argument
+        android:name="pelicula"
+        app:argType="com.example.practicotp3.entities.Pelicula" />
+    </fragment>
 </navigation>
