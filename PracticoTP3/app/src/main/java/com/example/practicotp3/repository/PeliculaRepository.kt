@@ -27,4 +27,8 @@ object PeliculaRepository {
         val pelicula = listaPeliculas.get(position)
         listaPeliculas.remove(pelicula)
     }
+
+    fun save(pelicula: Pelicula){
+        listaPeliculas.add(pelicula)
+    }
 }

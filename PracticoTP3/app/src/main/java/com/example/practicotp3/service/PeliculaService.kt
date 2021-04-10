@@ -18,4 +18,8 @@ class PeliculaService {
     fun removeByPosition(position: Int){
         peliculaRepository.removeByPosition(position)
     }
+
+    fun save(pelicula: Pelicula){
+        peliculaRepository.save(pelicula)
+    }
 }

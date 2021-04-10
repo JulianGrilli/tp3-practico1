@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_peliculaFragment_to_peliculaDetalleFragment"
             app:destination="@id/peliculaDetalleFragment" />
+        <action
+            android:id="@+id/action_peliculaFragment_to_newPeliculaFragment"
+            app:destination="@id/newPeliculaFragment" />
     </fragment>
     <fragment
         android:id="@+id/peliculaDetalleFragment"
@@ -21,5 +24,14 @@
     <argument
         android:name="pelicula"
         app:argType="com.example.practicotp3.entities.Pelicula" />
+    </fragment>
+    <fragment
+        android:id="@+id/newPeliculaFragment"
+        android:name="com.example.practicotp3.fragments.NewPeliculaFragment"
+        android:label="fragment_new_pelicula"
+        tools:layout="@layout/fragment_new_pelicula" >
+        <action
+            android:id="@+id/action_newPeliculaFragment_to_peliculaFragment"
+            app:destination="@id/peliculaFragment" />
     </fragment>
 </navigation>

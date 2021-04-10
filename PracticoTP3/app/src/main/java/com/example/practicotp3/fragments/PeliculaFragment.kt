@@ -52,7 +52,7 @@ class PeliculaFragment : Fragment() {
         recPeliculas.adapter = peliculaListAdapter
 
         addButton.setOnClickListener {
-          Snackbar.make(v,"Adding new", Snackbar.LENGTH_SHORT).show()
+            redirectToAddNewPeliculaFragment()
         }
     }
 
@@ -71,6 +71,11 @@ class PeliculaFragment : Fragment() {
 
     private fun redirectToPeliculaDetalleFragment(pelicula: Pelicula) {
         val action = PeliculaFragmentDirections.actionPeliculaFragmentToPeliculaDetalleFragment(pelicula)
+        v.findNavController().navigate(action)
+    }
+
+    private fun redirectToAddNewPeliculaFragment(){
+        val action = PeliculaFragmentDirections.actionPeliculaFragmentToNewPeliculaFragment()
         v.findNavController().navigate(action)
     }
 }
