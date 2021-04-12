@@ -8,6 +8,7 @@
     android:background="#B5564F"
     tools:context=".fragments.PeliculaFragment">
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
@@ -17,7 +18,7 @@
         android:layout_marginBottom="10dp"
         android:clickable="true"
         android:src="@android:drawable/ic_input_add"
-        app:backgroundTint="#304A31"
+        app:backgroundTint="#3F9E42"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

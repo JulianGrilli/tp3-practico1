@@ -5,6 +5,7 @@
     android:id="@+id/fragment_new_pelicula"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4A4545"
     tools:context=".fragments.NewPeliculaFragment">
 
     <ImageView
@@ -99,7 +100,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
-        android:background="#4CAF50"
+        android:background="#0C5E10"
         android:text="Agregar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

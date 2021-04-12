@@ -8,12 +8,9 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import androidx.navigation.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practicotp3.R
-import com.example.practicotp3.adapter.PeliculaListAdapter
 import com.example.practicotp3.entities.Pelicula
 import com.example.practicotp3.service.PeliculaService
-import kotlinx.android.synthetic.main.fragment_pelicula_detalle.*
 
 class NewPeliculaFragment : Fragment() {
 
